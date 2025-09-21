@@ -2,14 +2,14 @@
 # num=[2,2,4,5,6,3,4,5,6,7,8,7,8,9,0]
 # how many times the key repeats that will be stored in value's place
 # METHOD 1
-# a=input("Enter a number : ")
-# freq_map={}
-# for i in range(len(a)):
-#     if a[i] in freq_map:
-#         freq_map[a[i]]+=1
-#     else:
-#         freq_map[a[i]]=1
-# print(freq_map)
+a=input("Enter a number : ")
+freq_map={}
+for i in range(len(a)):
+    if a[i] in freq_map:
+        freq_map[a[i]]+=1
+    else:
+        freq_map[a[i]]=1
+print(freq_map)
 # TC=N
 # SC=N
 
