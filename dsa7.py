@@ -22,8 +22,8 @@ hash_list=[0]*11
 for i in a:
     hash_list[i]+=1
 for j in b:
-       if j<1 or j>10:
-          print(0)
-       else:
+    if j<1 or j>10:
+        print(0)
+    else:
           print(hash_list[i])
 print(hash_list)
