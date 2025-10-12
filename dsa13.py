@@ -1,4 +1,4 @@
-# Reverse an array using recursion
+# Reverse an subarray in an array  
 # using for loop 
 def reverse_subarray(arr,left,right):
     for i in range((right-left+1)//2):

@@ -10,7 +10,7 @@ for i in list2:
     for j in list1:
         if j == i:
             count+=1
-    list3.append(count)
+list3.append(count)
 print(list3)
 
 
